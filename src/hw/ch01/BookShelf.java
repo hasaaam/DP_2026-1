@@ -1,9 +1,8 @@
-package practice.ch01;
+package hw.ch01;
 
 import java.util.Iterator;
 
 public class BookShelf implements Iterable<Book> {
-// public class BookShelf {    
     private Book[] books;
     private int last = 0;
 
