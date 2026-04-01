@@ -13,8 +13,8 @@ public class Main {
         d1.display();
         d2.display();
 
-        d1 = new CharDisplay('X', 3); //기본 5 회
-        d2 = new StringDisplay("Test", 7); // 기본 5 회
+        d1 = new CharDisplay('X', 3); //3 회
+        d2 = new StringDisplay("Test", 7); // 7회
 
         d1.display();
         d2.display();

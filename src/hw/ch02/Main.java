@@ -6,7 +6,6 @@ public class Main {
 
         Charger charger = new KoreanOutletAdapter();
 
-        // Charger charger = (Charger) adapter;
 
         // 스마트폰 충전
         Smartphone smartphone = new Smartphone(charger);
