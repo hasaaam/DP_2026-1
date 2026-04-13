@@ -1,10 +1,11 @@
-package practice.ch06.framework;
+package hw.ch06.framework;
+
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class Manager {
-    private Map<String,Product> showcase = new HashMap<>(); // (key, value) 쌍을 관리
+    private Map<String,Product> showcase = new HashMap<>();
 
     public void register(String name, Product prototype) {
         showcase.put(name, prototype);
