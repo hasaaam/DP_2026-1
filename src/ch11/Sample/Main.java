@@ -28,5 +28,9 @@ public class Main {
         dojun.add(new File("game.doc", 400));
         dojun.add(new File("junk.mail", 500));
         rootdir.printList();
+
+        // Entry entry = (Entry) rootdir;
+
+        // ((Directory) entry).add(new File("etc", 700));
     }
 }

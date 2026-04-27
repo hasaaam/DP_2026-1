@@ -6,6 +6,7 @@ public class Main extends Thread {
         new Main("A").start();
         new Main("B").start();
         new Main("C").start();
+        new Main("D");
         System.out.println("End.");
     }
 
